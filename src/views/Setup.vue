@@ -110,7 +110,7 @@ function onSubmit(event) {
     number: this.number,
   }
 
-  // this.$router.push({path: '/quiz'})
+  this.$router.push({path: '/quiz'})
 }
 
 getCategories()
